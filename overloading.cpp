@@ -1,9 +1,9 @@
 #include<iostream>
 using namespace std;
-int addition(int a,int b=10){
+int addition(int a,int b=10){ //default argument
     return a+b;
 }
-int multiply(int a ,int b){
+int multiply(int a ,int b){ //function overloading
     return a*b;
 }
 int divide(int a,int b){
